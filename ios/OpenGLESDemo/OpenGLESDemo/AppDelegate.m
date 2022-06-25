@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+//@import MTHawkeye;
 
 @interface AppDelegate ()
 
@@ -15,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//    [MTRunHawkeyeInOneLine start];
     return YES;
 }
 

@@ -4,7 +4,7 @@ source "https://github.com/CocoaPods/Specs.git"
 target 'OpenGLESDemo' do
   use_frameworks!
 
-  pod 'MTHawkeye'
+#  pod 'MTHawkeye'
 	
 
 end
