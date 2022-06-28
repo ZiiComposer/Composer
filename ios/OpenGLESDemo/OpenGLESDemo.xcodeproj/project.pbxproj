@@ -24,6 +24,11 @@
 		2FBC8D422866F2A200402C14 /* TextureObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBC8D412866F2A200402C14 /* TextureObjc.m */; };
 		2FBC8D482866F50000402C14 /* OpenGLView03.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBC8D472866F50000402C14 /* OpenGLView03.m */; };
 		2FBC8D4B2866F50A00402C14 /* OpenGLViewViewController03.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBC8D4A2866F50A00402C14 /* OpenGLViewViewController03.m */; };
+		2FC4F6D2286700F3007AA2B4 /* OpenGLViewController04.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4F6D1286700F3007AA2B4 /* OpenGLViewController04.m */; };
+		2FC4F6D5286700FF007AA2B4 /* OpenGLView04.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4F6D4286700FF007AA2B4 /* OpenGLView04.m */; };
+		2FC4F6D92867031B007AA2B4 /* YUVBufferData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4F6D82867031B007AA2B4 /* YUVBufferData.m */; };
+		2FC4F6DB28670CA1007AA2B4 /* kunkun_nv12_690x1036.yuv in Resources */ = {isa = PBXBuildFile; fileRef = 2FC4F6DA28670CA1007AA2B4 /* kunkun_nv12_690x1036.yuv */; };
+		2FC4F6DD28671BFD007AA2B4 /* nv12_512x512.yuv in Resources */ = {isa = PBXBuildFile; fileRef = 2FC4F6DC28671BFD007AA2B4 /* nv12_512x512.yuv */; };
 		C37710A6A4D562D369D1F5CD /* Pods_OpenGLESDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4D4E6D1B5C70BC6F2719F0 /* Pods_OpenGLESDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +65,14 @@
 		2FBC8D472866F50000402C14 /* OpenGLView03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLView03.m; sourceTree = "<group>"; };
 		2FBC8D492866F50A00402C14 /* OpenGLViewViewController03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLViewViewController03.h; sourceTree = "<group>"; };
 		2FBC8D4A2866F50A00402C14 /* OpenGLViewViewController03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLViewViewController03.m; sourceTree = "<group>"; };
+		2FC4F6D0286700F3007AA2B4 /* OpenGLViewController04.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLViewController04.h; sourceTree = "<group>"; };
+		2FC4F6D1286700F3007AA2B4 /* OpenGLViewController04.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLViewController04.m; sourceTree = "<group>"; };
+		2FC4F6D3286700FF007AA2B4 /* OpenGLView04.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLView04.h; sourceTree = "<group>"; };
+		2FC4F6D4286700FF007AA2B4 /* OpenGLView04.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLView04.m; sourceTree = "<group>"; };
+		2FC4F6D72867031B007AA2B4 /* YUVBufferData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUVBufferData.h; sourceTree = "<group>"; };
+		2FC4F6D82867031B007AA2B4 /* YUVBufferData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUVBufferData.m; sourceTree = "<group>"; };
+		2FC4F6DA28670CA1007AA2B4 /* kunkun_nv12_690x1036.yuv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kunkun_nv12_690x1036.yuv; sourceTree = "<group>"; };
+		2FC4F6DC28671BFD007AA2B4 /* nv12_512x512.yuv */ = {isa = PBXFileReference; lastKnownFileType = file; path = nv12_512x512.yuv; sourceTree = "<group>"; };
 		ECDC73CC2B18405F26E7EBFF /* Pods-OpenGLESDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLESDemo.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLESDemo/Pods-OpenGLESDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FB547742DEEE7D0552B5A50A /* Pods-OpenGLESDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLESDemo.release.xcconfig"; path = "Target Support Files/Pods-OpenGLESDemo/Pods-OpenGLESDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +114,12 @@
 		2F24FD752865D0A700D6AC97 /* yuv图片 */ = {
 			isa = PBXGroup;
 			children = (
+				2FC4F6D3286700FF007AA2B4 /* OpenGLView04.h */,
+				2FC4F6D4286700FF007AA2B4 /* OpenGLView04.m */,
+				2FC4F6D0286700F3007AA2B4 /* OpenGLViewController04.h */,
+				2FC4F6D1286700F3007AA2B4 /* OpenGLViewController04.m */,
+				2FC4F6D72867031B007AA2B4 /* YUVBufferData.h */,
+				2FC4F6D82867031B007AA2B4 /* YUVBufferData.m */,
 			);
 			path = "yuv图片";
 			sourceTree = "<group>";
@@ -155,6 +174,8 @@
 		2FBC8D3328669D5200402C14 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				2FC4F6DA28670CA1007AA2B4 /* kunkun_nv12_690x1036.yuv */,
+				2FC4F6DC28671BFD007AA2B4 /* nv12_512x512.yuv */,
 				2FBC8D3428669D6900402C14 /* kunkun.jpg */,
 			);
 			path = resource;
@@ -249,6 +270,8 @@
 				2F6604862865D06F001A2BA3 /* LaunchScreen.storyboard in Resources */,
 				2FBC8D3528669D6900402C14 /* kunkun.jpg in Resources */,
 				2F6604832865D06F001A2BA3 /* Assets.xcassets in Resources */,
+				2FC4F6DB28670CA1007AA2B4 /* kunkun_nv12_690x1036.yuv in Resources */,
+				2FC4F6DD28671BFD007AA2B4 /* nv12_512x512.yuv in Resources */,
 				2F6604812865D06E001A2BA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,9 +327,12 @@
 			files = (
 				2F66047E2865D06E001A2BA3 /* ViewController.m in Sources */,
 				2F6604782865D06E001A2BA3 /* AppDelegate.m in Sources */,
+				2FC4F6D92867031B007AA2B4 /* YUVBufferData.m in Sources */,
 				2F6604972865DBE0001A2BA3 /* OpenGLViewController01.m in Sources */,
 				2FBC8D3828669D7D00402C14 /* OpenGLView02.m in Sources */,
+				2FC4F6D5286700FF007AA2B4 /* OpenGLView04.m in Sources */,
 				2F6604942865D492001A2BA3 /* ShaderTool.m in Sources */,
+				2FC4F6D2286700F3007AA2B4 /* OpenGLViewController04.m in Sources */,
 				2F6604892865D06F001A2BA3 /* main.m in Sources */,
 				2FBC8D422866F2A200402C14 /* TextureObjc.m in Sources */,
 				2FBC8D4B2866F50A00402C14 /* OpenGLViewViewController03.m in Sources */,
